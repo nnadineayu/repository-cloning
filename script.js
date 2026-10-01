@@ -15,11 +15,11 @@ document.addEventListener("click", function (e) {
 
 // Fetching Data
 
-const gistUrl = "https://gist.githubusercontent.com/fanhdt/c79a84879456e2832d88bf3e1020895a/raw/0c38afd136e1176bdc6de54e06ee3a1bd5f6049d/course.json";
+const jsonUrl = "./data.json";
 
 async function getCourses() {
   try {
-    const response = await fetch(gistUrl);
+    const response = await fetch(jsonUrl);
     if (!response.ok) {
       throw new Error("Gagal mengambil data");
     }
@@ -31,7 +31,7 @@ async function getCourses() {
 }
 
 function displayCourses(courses) {
-  const courseList = document.querySelector("#course-list");
+  const courseList = document.querySelector("#koleksi-list");
 
   courseList.innerHTML = "";
 
@@ -40,13 +40,12 @@ function displayCourses(courses) {
     <div class="menu-card">
         <img src="${course.image}"></img>
         <div class="menu-card-content">
-            <span>${course.category}</span>
-            <h3>${course.title}</h3>
-            <p>${course.description}</p>
-            <small>Mentor: ${course.mentor}</small>
+            <span>${course.species}</span>
+            <h3>${course.title}</h3>  
+            <small>Member: ${course.member}</small>
             <strong>${course.price}</strong>
             <a href="course.html?slug=${course.slug}">
-            Lihat Kelas
+            Lihat Karakter
             </a>
         </div>
     </div>

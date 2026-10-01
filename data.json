@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "slug": "choitcherry",
+    "title": "Choitcherry",
+    "species": "Rabbit",
+    "member": "S.Coups",
+    "price": "Rp 881.995",
+    "image": "./assets/choitcherry.jpg",
+    "description": "Very shy, has a lot of hidden muscles, and is overall described to be a shy but buff rabbit."
+  },
+  {
+    "id": 2,
+    "slug": "jjongtoram",
+    "title": "Jjongtoram",
+    "species": "Rabbit-chipmunk",
+    "member": "Jeonghan",
+    "price": "Rp 1.041.995",
+    "image": "./assets/jjongtoram.jpg",
+    "description": "Flies around with a blanket around."
+  },
+  {
+    "id": 3,
+    "slug": "foxdungee",
+    "title": "Foxdungee",
+    "species": "Fox",
+    "member": "Wonwoo",
+    "price": "Rp 1.771.996",
+    "image": "./assets/foxdungee.jpg",
+    "description": "Has six tails, full of curiousity."
+  },
+  {
+    "id": 4,
+    "slug": "kimja",
+    "title": "Kimja",
+    "species": "Potato",
+    "member": "Mingyu",
+    "price": "Rp 641.996",
+    "image": "./assets/kimja.jpg",
+    "description": "Bigger than you expect, the leader of the potatoes, Kimja feels a sense of responsibility with leadership."
+  },
+  {
+    "id": 5,
+    "slug": "nonver",
+    "title": "Nonver",
+    "species": "Human",
+    "member": "Vernon",
+    "price": "Rp 1.821.998",
+    "image": "./assets/nonver.jpg",
+    "description": "Nonver knows how to sleep well and play hard."
+  }
+]
